@@ -27,6 +27,7 @@ module.exports = {
         contentAuthors: "content/authors",
         basePath: "/",
         authorsPage: true,
+        mailchimp: true,
         sources: {
           local: true,
         },
@@ -42,6 +43,12 @@ module.exports = {
         theme_color: `#fff`,
         display: `standalone`,
         icon: `src/assets/favicon.svg`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://codes.us7.list-manage.com/subscribe/post?u=6ef422aa6d718533dece62c72&amp;id=027b314468',
       },
     },
   ],
