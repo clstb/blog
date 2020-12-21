@@ -18,7 +18,8 @@ The Kubernetes distribution is:
 * lightweight
 * packaged in a single binary
 
-Let's get started!
+*I personally run 3 SKVM-4G from [MaxKVM](https://www.maxkvm.com) for 18$/month with student discount.
+Each node has 2 EPYC cores, 4GB ECC, 3TB traffic @ 1GBs, 75GB NVME; unmatched for that price.*
 
 # 1. Setup node iptables
 
