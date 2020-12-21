@@ -9,11 +9,11 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@narative/gatsby-theme-novela": "^0.*",
-    "gatsby": "^2.13.41",
+    "@narative/gatsby-theme-novela": "^0.18.4",
+    "gatsby": "^2.29.1",
     "gatsby-plugin-mailchimp": "^5.2.2",
-    "gatsby-plugin-manifest": "^2.2.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "gatsby-plugin-manifest": "^2.9.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
