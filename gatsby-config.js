@@ -17,6 +17,10 @@ module.exports = {
         name: `linkedin`,
         url: `https://linkedin.com/in/clstb`,
       },
+      {
+	name: `mailto`,
+	url: `mailto:contact@clstb.codes`
+      }
     ],
   },
   plugins: [
