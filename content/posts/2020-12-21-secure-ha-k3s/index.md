@@ -32,7 +32,7 @@ I assume that each node will have two distinct network interfaces:
 We will start by blocking incoming and allowing outgoing traffic.
 
 ```shell
-sudo ufw default allow outgoing &
+sudo ufw default allow outgoing
 sudo ufw default deny incoming
 ```
 
@@ -128,8 +128,9 @@ at the bottom of the file.
 Reload and check the node after editing.
 
 ```shell
-systemctl daemon-reload & \
+systemctl daemon-reload
 service k3s restart
+kubectl get nodes
 ```
 
 **Copy `/etc/rancher/k3s/k3s.yaml` to your machine.
