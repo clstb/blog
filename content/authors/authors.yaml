@@ -1,4 +1,4 @@
-- name: Claas Stoertenbecker
+- name: Claas Störtenbecker
   bio: |
     Software Engineer with focus on Go, Kubernetes and cloud native solutions.
     Currently Backend Engineer at Data4Life and CS Student at TU Berlin.
@@ -7,3 +7,4 @@
     - url: https://github.com/clstb
     - url: https://linkedin.com/in/clstb
   featured: true
+  slug: clstb
