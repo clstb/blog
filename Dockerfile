@@ -1,9 +1,11 @@
 FROM node:13.8.0 as front
 
 WORKDIR /app
-COPY ./ /app/
 
+COPY ./package.json .
 RUN yarn install
+
+COPY . .
 RUN yarn run build
 
 FROM nginx:1.17.8-alpine
