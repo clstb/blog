@@ -1,0 +1,13 @@
+kind: pipeline
+type: kubernetes
+name: default
+
+steps:
+  - name: publish_docker
+    image: plugins/docker
+    settings:
+      repo: clstb/blog
+      username: clstb
+      password:
+        from_secret: docker_password
+      tag: ${DRONE_COMMIT_SHA:0:8}
