@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blog
+spec:
+  minReadySeconds: 10
+  replicas: 1
+  revisionHistoryLimit: 10
+  template:
+    spec:
+      containers:
+        - image: clstb/blog
+          imagePullPolicy: IfNotPresent
+          name: blog
+          ports:
+            - containerPort: 80
+              name: http
+          resources:
+            limits:
+              cpu: "0.5"
