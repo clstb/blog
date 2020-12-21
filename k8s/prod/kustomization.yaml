@@ -5,6 +5,3 @@ patches:
 commonLabels:
   env: prod
 namespace: prod
-images:
-  - name: clstb/blog
-    newTag: b1d08bdb
