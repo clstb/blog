@@ -29,7 +29,6 @@ module.exports = {
         authorsPage: true,
         sources: {
           local: true,
-          // contentful: true,
         },
       },
     },
@@ -43,11 +42,6 @@ module.exports = {
         theme_color: `#fff`,
         display: `standalone`,
         icon: `src/assets/favicon.svg`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
       },
     },
   ],
