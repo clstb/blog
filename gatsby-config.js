@@ -55,5 +55,11 @@ module.exports = {
         endpoint: 'https://codes.us7.list-manage.com/subscribe/post?u=6ef422aa6d718533dece62c72&amp;id=027b314468',
       },
     },
+    {
+      resolve: 'gatsby-plugin-sitemap'
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt'
+    }
   ],
 };
