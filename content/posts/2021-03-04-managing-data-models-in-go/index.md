@@ -1,7 +1,7 @@
 ---
 title: Managing data models in Go
 author: Claas Störtenbecker
-date: 2020-03-04
+date: 2021-03-04
 hero: ./images/hero.jpg
 excerpt: How I avoid duplicating data structures in Go services.
 ---
